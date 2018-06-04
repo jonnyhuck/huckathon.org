@@ -91,9 +91,9 @@
 				map1.fitBounds(bounds);
 				map2.fitBounds(bounds);
 			
-				//OpenStreetMap Humanitarian layer
-				var osmhum = new L.TileLayer("http://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png", {
-					attribution:"Data © OpenStreetMap Contributors. Tiles courtesy of Humanitarian OpenStreetMap Team",
+				//OpenStreetMap layer
+				var osmhum = L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+					attribution: '&copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors,<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>'
 				}).addTo(map1);
 
 				//ESRI Satellite Imagery layer
