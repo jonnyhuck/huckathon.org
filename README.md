@@ -1,6 +1,8 @@
 # huckathon.org
 A simple, quick and dirty task manager interface for OSM Mapathons.
 
+This site is built using [Jekyll](https://jekyllrb.com/).
+
 ## Setup
 To use this, you must have a [PostGIS](http://postgis.net/) database containing a set of squares covering your area of interest in a table called `grid`.
 
