@@ -1,0 +1,26 @@
+---
+layout: default
+---
+<article id="main">
+
+  <header>
+    <h2>{{ page.title }}</h2>
+    <p>{{ page.subtitle }}</p>
+  </header>
+
+  <section class="wrapper style5">
+    <div class="inner">
+      {{ content }}
+		<ul class="alt">
+		  {% for post in site.posts %}
+			<li>
+			  <h2 style="color:#21b2a6"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+			  <strong>{{ post.subtitle }}</strong>
+			  <em>{{ post.excerpt }}</em>
+			</li>
+		  {% endfor %}
+		</ul>
+    </div>
+  </section>
+
+</article>

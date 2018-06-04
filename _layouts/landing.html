@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!--
+  Original Design: Spectral by HTML5 UP
+    html5up.net | @n33co
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+  Jekyll build mod
+-->
+<html>
+
+  {% include head.html %}
+
+  <body class="landing">
+
+    <!-- Page Wrapper -->
+    <div id="page-wrapper">
+
+      {% include header.html %}
+      
+		<!-- Banner -->
+		<section id="banner">
+			<div class="inner">
+				<h2>#{{ site.title }}</h2>
+				<p>{{ site.description | markdownify }}</p>
+				<ul class="actions">
+					<li><a href='#info' class='button special'>Instructions</a></li>
+					<li><a href='./map.php' class='button special'>Start Mapping</a></li>
+				</ul>
+			</div>
+			<a href="#one" class="more scrolly">Learn More</a>
+		</section>
+
+	<!-- Content -->
+		<section id="info" class="wrapper style1 special">
+			<div class="inner">
+				<header class="major">
+					<h2>Welcome to the #Huckathon!</h1>
+				</header>
+
+      			{{ content }}
+
+			</div>
+		</section>
+
+      {% include footer.html %}
+
+      {% include scripts.html %}
+
+    </div>
+
+  </body>
+
+</html>
