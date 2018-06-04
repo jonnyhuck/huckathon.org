@@ -28,7 +28,7 @@
 				color: white;
 				padding: 20px;
 				font-weight: bold;
-				font-size: large;
+				font-size: medium;
 			}
 			#greenBtn {
 				background-color: #33ed49;
