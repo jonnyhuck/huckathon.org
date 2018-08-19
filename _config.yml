@@ -3,9 +3,8 @@
 
 # Site settings
 title: Huckathon
-description: |
-  Community Mapping Uganda
-owner: Huckathon. # or company name
+description: Community Mapping Uganda
+owner: Community Mapping Uganda 
 first_published: 2018 # if migrating another site, the year of your first publish
 email: 
 baseurl: "" # the subpath of your site, e.g. /blog
