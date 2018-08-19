@@ -79,7 +79,7 @@ $baseurl: '{{ site.baseurl }}/images';
 	a {
 		@include vendor('transition', ('color #{_duration(transitions)} ease', 'border-bottom-color #{_duration(transitions)} ease'));
 		border-bottom: dotted 1px;
-		color: inherit;
+		color: #ed4933;
 		text-decoration: none;
 
 		&:hover {
