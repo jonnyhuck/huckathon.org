@@ -4,7 +4,7 @@ title: Schools and Groups
 title2: Schools and Groups
 ---
 
-We are currently working on packs to help schools and groups to organise their own #Huckathon events. Watch this space for more information, or contact Dr Jonny Huck 
+We are currently working on packs to help schools and groups to organise their own Comunity Mapping events. Watch this space for more information, or contact Dr Jonny Huck 
 <script type="text/javascript" language="javascript">
 <!--
 		// Email obfuscator script 2.1 by Tim Williams, University of Arizona
@@ -31,4 +31,4 @@ We are currently working on packs to help schools and groups to organise their o
 		//-->
 	</script> if you would like to be notified of their release.
 
-In the meantime, you are welcome to organise your own #Huckathon events, simply direct your participants to this website and direct them to the [instructions](http://huckathon.org/index.html#info)!
+In the meantime, you are welcome to organise your own Community Mapping events, simply direct your participants to this website and direct them to the [instructions](http://huckathon.org/index.html#info)!

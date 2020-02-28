@@ -127,7 +127,7 @@ This will make the map go grey and the bar on the left to look like this:
 In the **Changeset Comment** type (or just copy and paste): 
 
 ```
-#Huckathon
+#CommunityMappingUganda
 ```
 
 ### Giving up...
