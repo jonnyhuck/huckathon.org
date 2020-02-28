@@ -2,11 +2,11 @@
 #
 
 # Site settings
-title: Huckathon
+title: Community Mapping Uganda
 description: Community Mapping Uganda
-owner: Community Mapping Uganda 
+owner: Community Mapping Uganda
 first_published: 2018 # if migrating another site, the year of your first publish
-email: 
+email:
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://huckathon.org" # the base hostname & protocol for your site
 social:
