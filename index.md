@@ -2,15 +2,15 @@
 layout: landing
 ---
 
-Firstly, thankyou for taking part in mapping for **Community Mapping Uganda** , each feature we add to this map could mean a new limb for someone who has been injured by conflict, so this is a great way to spend some time! If you want to learn about our work before you get started, you can read about it [**here**](https://spark.adobe.com/page/SiM4Iji37rdJr/).
+Firstly, thankyou for taking part in mapping for **Community Mapping Uganda** , each feature we add to this map could mean a new limb for someone who has been injured by conflict, so this is a great way to spend some time! If you want to learn about our work before you get started, you can read about it [**here**](https://spark.adobe.com/page/SiM4Iji37rdJr/){:target="_blank"}.
 
 The following are just some brief instructions as to how to use the tools for the Mapathon:
 
 ## OpenStreetMap
 First things first, you need to sign up with OpenStreetMap (or just login if you already have an account). Here is how:
 
-1. If you are already a member of OpenStreetMap, click [**here**](https://www.openstreetmap.org/login) to log in and do so. *You can then skip the rest of this section.*
-2. If you are not a member of OpenStreetMap, then click [**here**](https://www.openstreetmap.org/user/new) to sign up (also top right of the screen)
+1. If you are already a member of OpenStreetMap, click [**here**](https://www.openstreetmap.org/login){:target="_blank"} to log in and do so. *You can then skip the rest of this section.*
+2. If you are not a member of OpenStreetMap, then click [**here**](https://www.openstreetmap.org/user/new){:target="_blank"} to sign up (also top right of the screen)
 3. Fill in your details and click the **Sign Up** button at the bottom of the form, then accept the user agreement
 4. You will then be sent an email asking you to verify your account
 5. Click the link in the email and you are good to go!
