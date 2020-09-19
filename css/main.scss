@@ -1847,3 +1847,13 @@ $baseurl: '{{ site.baseurl }}/images';
 			}
 		}
 	}
+
+	#content-container {
+		max-width: 800px;
+  	margin: auto;
+  	border: none;
+	}
+
+	img{
+		max-width:100%;
+	}
