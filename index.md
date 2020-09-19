@@ -121,12 +121,7 @@ This will make the map go grey and the bar on the left to look like this:
 
 ![save screen](images/savescreen.png)
 
-
-In the **Changeset Comment** type (or just copy and paste):
-
-```
-#CommunityMappingUganda
-```
+In the **Changeset Comment** type **Community Mapping Uganda**:
 
 ### Giving up...
 If you want to give up on a square, or weren't able to finish, then that is absolutely fine - please just save any work that you have done (as above) then follow the instructions in the [**Back to Community Mapping Uganda**](#back-to-community-mapping-uganda) section below so that we know to go back to that square.
