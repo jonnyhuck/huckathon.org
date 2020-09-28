@@ -47,6 +47,7 @@
 				font-family: sans-serif;
 				/* font-size: medium; */
 				font-size: 1vw;	/* each letter is 1% of view width */
+				white-space: nowrap;
 			}
 		</style>
 	</head>
