@@ -29,9 +29,10 @@
 			button {
 				font-family: sans-serif;
 				color: white;
-				padding: 20px;
+				padding: 10px;
 				font-weight: bold;
-				font-size: medium;
+				/* font-size: medium; */
+				font-size: 3.2vw;
 			}
 			#greenBtn {
 				background-color: #33ed49;
@@ -44,7 +45,8 @@
 			}
 			.leaflet-control {
 				font-family: sans-serif;
-				font-size: medium;
+				/* font-size: medium; */
+				font-size: 3.2vw;
 			}
 		</style>
 	</head>
