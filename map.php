@@ -29,9 +29,8 @@
 			button {
 				font-family: sans-serif;
 				color: white;
-				padding: 2% 1%;
+				padding: 20px 10px;
 				font-weight: bold;
-				/* font-size: medium; */
 				font-size: 1vw; /* each letter is 1% of view width */
 			}
 			#greenBtn {
@@ -45,7 +44,6 @@
 			}
 			.leaflet-control {
 				font-family: sans-serif;
-				/* font-size: medium; */
 				font-size: 1vw;	/* each letter is 1% of view width */
 				white-space: nowrap;
 			}
@@ -132,7 +130,7 @@
 						var container = L.DomUtil.create('div', 'leaflet-bar leaflet-control leaflet-control-custom');
 						container.style.backgroundColor = 'white';
 						container.innerHTML = '<button id="greenBtn" onclick="greenButton()">Start Mapping Now!</button> <button id="yellowBtn" onclick="yellowButton()">Not Sure, Skip!</button> <button id="redBtn" onclick="redButton()">No Mapping Needed!</button>';
-						container.style.padding = "1%";
+						container.style.padding = "5px";
 						container.style.color = "black";
 
 						//prevent clicks from being propagated to the map
