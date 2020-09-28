@@ -8,6 +8,7 @@
 		<script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js" integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log==" crossorigin=""></script>
 		<script src="./js/Bing.js"></script>
 		<script src="./js/Bing.addon.applyMaxNativeZoom.js"></script>
+		<script src="./js/L.Map.sync.js"></script>
 		<style type="text/css">
 			html, body {
 				width: 100%;
@@ -254,7 +255,7 @@
 				httpRequest.open('GET', url);
 				httpRequest.send();
 			}	// makeRequest
-			
+
 		</script>
 	</body>
 </html>
