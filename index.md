@@ -95,9 +95,9 @@ In this example the **road** has already been mapped but the **huts** and **buil
 
 ![copy and paste](images/copypaste.png)
 
-A video summary of mapping a hut can be seen in the video (no audio) below:
+<!-- A video summary of mapping a hut can be seen in the video (no audio) below:
 
-<iframe width="900" height="506" src="https://www.youtube.com/embed/msLi1grrI7M" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="900" height="506" src="https://www.youtube.com/embed/msLi1grrI7M" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
 
 ### Mapping a building
 
