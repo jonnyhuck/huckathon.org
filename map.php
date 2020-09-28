@@ -107,7 +107,7 @@
 
 				//add the button panel to the map
 				var customControl =  L.Control.extend({
-					options: { position: 'topleft' },
+					options: { position: 'topright' },
 					onAdd: function (m) {	//construct the button
 						var container = L.DomUtil.create('div', 'leaflet-bar leaflet-control leaflet-control-custom');
 						container.style.backgroundColor = 'white';
