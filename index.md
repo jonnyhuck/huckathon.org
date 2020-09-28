@@ -2,9 +2,11 @@
 layout: landing
 ---
 
-Firstly, thankyou for taking part in mapping for **Community Mapping Uganda** , each feature we add to this map could mean a new limb for someone who has been injured by conflict, so this is a great way to spend some time! If you want to learn about our work before you get started, you can read about it [**here**](https://spark.adobe.com/page/SiM4Iji37rdJr/){:target="_blank"}.
+Firstly, thankyou for taking part in mapping for **Community Mapping Uganda** , each feature we add to this map could mean a new limb for someone who has been injured by conflict, so this is a great way to spend some time! If you want to learn about our work before you get started, you can read about it [**here**](https://spark.adobe.com/page/SiM4Iji37rdJr/){:target="_blank"}, or watch the below video, which gives a brief overview of the project as well as instructions on how to take part:
 
-The following are just some brief instructions as to how to use the tools for the Mapathon:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RC6yhnyVckg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+If you prefer written instructions, here they are:
 
 ## OpenStreetMap
 First things first, you need to sign up with OpenStreetMap (or just login if you already have an account). Here is how:
@@ -16,7 +18,7 @@ First things first, you need to sign up with OpenStreetMap (or just login if you
 5. Click the link in the email and you are good to go!
 
 ## This website
-The main part of this website is a simple tool to help us coordinate the mapping effort. In simple terms, we have divided the whole area that we are working in (in Uganda) into squares, and we are going to map those squares one by one (to make sure no-one maps anything twice!). Though it might seem a bit inefficient, the golden rule is this: **try to stick to your square!**
+The main part of this website is a simple tool to help us coordinate the mapping effort. In simple terms, we have divided the whole area that we are working in (in Uganda) into squares, and we are going to map those squares one by one (to make sure no-one maps anything twice!). We ask volunteers to try to stick to their square, then get a new one when they have finished (rather than just keep going); but it doesn't matter if you go out of your square a bit - so please don't worry too much about it!
 
 The mapping tool assigns you a green square, and lets you quickly assess whether or not it needs mapping, simply by comparing satellite imagery (right) to the current map (left).
 
@@ -99,7 +101,7 @@ A video summary of mapping a hut can be seen in the video (no audio) below:
 
 ### Mapping a building
 
-To map buildings, follow the same method but instead of using **Circularise** simply follow the outline of the building and then select **'Building'** instead of ‘Hut’ from the bar on the left.
+To map buildings, follow the same method but instead of using **Circularise**, use **Square** (to square off the corners). Simply follow the outline of the building and then select **'Building'** instead of ‘Hut’ from the bar on the left.
 
 ### Mapping a Road/Track
 
