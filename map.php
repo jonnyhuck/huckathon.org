@@ -79,8 +79,8 @@
 				console.log(d.rows.toString() + " locked (" + id + ")");
 
 				//setup maps
-				var map1 = L.map('map1', { minZoom:17 });
-				var map2 = L.map('map2', { minZoom:17 });
+				var map1 = L.map('map1', { minZoom:17, zoomControl:false });
+				var map2 = L.map('map2', { minZoom:17, zoomControl:false });
 
 				// define rectangle geographical bounds
 				var bounds = [[miny, minx], [maxy, maxx]];	// remember latlng is y, x!
