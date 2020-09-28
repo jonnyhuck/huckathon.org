@@ -32,7 +32,7 @@
 				padding: 10px;
 				font-weight: bold;
 				/* font-size: medium; */
-				font-size: 3.2vw;
+				font-size: 0.5vw;
 			}
 			#greenBtn {
 				background-color: #33ed49;
@@ -46,7 +46,7 @@
 			.leaflet-control {
 				font-family: sans-serif;
 				/* font-size: medium; */
-				font-size: 3.2vw;
+				font-size: 0.5vw;
 			}
 		</style>
 	</head>
