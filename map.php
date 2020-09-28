@@ -29,7 +29,7 @@
 			button {
 				font-family: sans-serif;
 				color: white;
-				padding: 20px 10px;
+				padding: 15px 10px;
 				font-weight: bold;
 				font-size: 1vw; /* each letter is 1% of view width */
 			}
