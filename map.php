@@ -132,7 +132,7 @@
 						var container = L.DomUtil.create('div', 'leaflet-bar leaflet-control leaflet-control-custom');
 						container.style.backgroundColor = 'white';
 						container.innerHTML = '<button id="greenBtn" onclick="greenButton()">Start Mapping Now!</button> <button id="yellowBtn" onclick="yellowButton()">Not Sure, Skip!</button> <button id="redBtn" onclick="redButton()">No Mapping Needed!</button>';
-						container.style.padding = "5px";
+						container.style.padding = "1%";
 						container.style.color = "black";
 
 						//prevent clicks from being propagated to the map
