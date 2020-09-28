@@ -74,13 +74,12 @@
 			var mapping = false;
 
 			//lock the requested square - in essence thing else is a callback to this
-    		makeRequest(['scripts/markLocked.php?id=', id].join(''), function(d){
-
-    			console.log(d.rows.toString() + " locked (" + id + ")");
+			makeRequest(['scripts/markLocked.php?id=', id].join(''), function(d) {
+				console.log(d.rows.toString() + " locked (" + id + ")");
 
 				//setup maps
-				var map1 = L.map('map1', {maxZoom: 17, minZoom:17, dragging:false, zoomControl:false});
-				var map2 = L.map('map2', {maxZoom: 17, minZoom:17, dragging:false, zoomControl:false});
+				var map1 = L.map('map1', { minZoom:17 });
+				var map2 = L.map('map2', { minZoom:17 });
 
 				// define rectangle geographical bounds
 				var bounds = [[miny, minx], [maxy, maxx]];	// remember latlng is y, x!
@@ -93,15 +92,14 @@
 				map1.fitBounds(bounds);
 				map2.fitBounds(bounds);
 
-				//OpenStreetMap layer
+				// sync the map views
+				map1.sync(map2);
+				map2.sync(map1);
+
+				// add OSM layer
 				var osmhum = L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 					attribution: '&copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors,<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>'
 				}).addTo(map1);
-
-				//ESRI Satellite Imagery layer
-				// var esriLayer = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
-				// 	attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP'
-				// }).addTo(map2);
 
 				// Bing Arial layer (same as the iD one )
 				var bingLayer = L.bingLayer('AlaVjs6kyM-8A9HaqgSImVY9ZnjHvdKScTg8qgOE390cuCm5GSjzeXzgZmqru41v').addTo(map2);
@@ -111,10 +109,10 @@
 					options: { position: 'topleft' },
 					onAdd: function (m) {	//construct the button
 						var container = L.DomUtil.create('div', 'leaflet-bar leaflet-control leaflet-control-custom');
-							container.style.backgroundColor = 'white';
-							container.innerHTML = 'Compare the map to the satellite image, if anything is missing it needs mapping!<br>We are particularly interested in <strong>huts</strong>, <strong>paths</strong> and <strong>roads</strong>.';
-							container.style.padding = "10px";
-							container.style.color = "black";
+						container.style.backgroundColor = 'white';
+						container.innerHTML = 'Compare the map to the satellite image, if anything is missing it needs mapping!<br>We are particularly interested in <strong>huts</strong>, <strong>paths</strong> and <strong>roads</strong>.';
+						container.style.padding = "10px";
+						container.style.color = "black";
 
 						//prevent clicks from being propagated to the map
 						L.DomEvent.disableClickPropagation(container);
@@ -128,10 +126,10 @@
 					options: { position: 'topright' },
 					onAdd: function (m) {	//construct the button
 						var container = L.DomUtil.create('div', 'leaflet-bar leaflet-control leaflet-control-custom');
-							container.style.backgroundColor = 'white';
-							container.innerHTML = '<button id="greenBtn" onclick="greenButton()">Start Mapping Now!</button> <button id="yellowBtn" onclick="yellowButton()">Not Sure, Skip!</button> <button id="redBtn" onclick="redButton()">No Mapping Needed!</button>';
-							container.style.padding = "5px";
-							container.style.color = "black";
+						container.style.backgroundColor = 'white';
+						container.innerHTML = '<button id="greenBtn" onclick="greenButton()">Start Mapping Now!</button> <button id="yellowBtn" onclick="yellowButton()">Not Sure, Skip!</button> <button id="redBtn" onclick="redButton()">No Mapping Needed!</button>';
+						container.style.padding = "5px";
+						container.style.color = "black";
 
 						//prevent clicks from being propagated to the map
 						L.DomEvent.disableClickPropagation(container);
@@ -140,48 +138,49 @@
 				});
 				map2.addControl(new customControl());
 
-			});
+			});	// end of callback from markLocked.php
 
 			/**
 			 * Handlers for the functionality of the red button
 			 */
 			function redButton() {
 
-				// there is nothing to map in the square
+				/* there is nothing to map in the square */
 				if(!mapping){
 
-					//mark the square as empty
-    				makeRequest(['scripts/markEmpty.php?id=', id].join(''), function(d){
+					// mark the square as empty
+					makeRequest(['scripts/markEmpty.php?id=', id].join(''), function(d){
 
-    					//TODO: Verification
-    					console.log(d.rows.toString() + " marked empty (" + id + ")");
+						// TODO: Verification
+						console.log(d.rows.toString() + " marked empty (" + id + ")");
 
-						//reload the page to get new square
+						// reload the page to get new square
 						location.reload();
-    				});
 
-				//set the square as incomplete
+					});	// end of callback from markEmpty
+
+				/* set the square as incomplete */
 				} else {
 
 					//mark the square as not mapped
-    				makeRequest(['scripts/markNotMapped.php?id=', id].join(''), function(d){
+					makeRequest(['scripts/markNotMapped.php?id=', id].join(''), function(d){
 
 						//TODO: Verification
 						console.log(d.rows.toString() + " reset (" + id + ")");
 
 						//reload the page to get new square
 						location.reload();
-    				});
+					});	// end of callback from notMapped
 				}
 
-			}
+			}	// redButton
 
 			/**
 			 * handlers for the functionality of the green button
 			 */
 			function greenButton() {
 
-				// start mapping
+				/* start mapping */
 				if(!mapping){
 
 					//set the flag to mapping
@@ -196,47 +195,37 @@
 					var redirectWindow = window.open(osmurl, '_blank');
 					redirectWindow.location;
 
-    			// end mapping
-    			} else {
+				/* end mapping */
+				} else {
 
-    				//set the flag to not mapping
-					mapping = true;
+					//set the flag to not mapping
+					mapping = false;
 
-    				//mark the square as complete
-    				makeRequest(['scripts/markComplete.php?id=', id].join(''), function(d){
+					//mark the square as complete
+					makeRequest(['scripts/markComplete.php?id=', id].join(''), function(d){
 
 						//TODO: Verification
 						console.log(d.rows.toString() + " marked complete (" + id + ")");
 
 						//reload the page to get new square
 						location.reload();
-    				});
-    			}
-			}
+
+					});	// end of markComplete callback
+				}
+			}	// greenButton
 
 			/**
-			 * Handlers for the functionality of the yellow button
-			 */
+			* Handlers for the functionality of the yellow button
+			*/
 			function yellowButton() {
 
-				// there is nothing to map in the square
-// 				if(!mapping){
-//
-// 					//mark the square as not mapped
-//     				makeRequest(['scripts/markNotMapped.php?id=', id].join(''), function(d){
-//
-// 						//TODO: Verification
-// 						console.log(d.rows.toString() + " reset (" + id + ")");
-
-						//reload the page to get new square
-						location.reload();
-//     				});
-// 				}
-			}
+				//reload the page to get new square
+				location.reload();
+			}	// yellowButton
 
 			/**
-			 * Make a request for JSON over HTTP, pass resulting text to callback when ready
-			 */
+			* Make a request for JSON over HTTP, pass resulting text to callback when ready
+			*/
 			function makeRequest(url, callback) {
 
 				//initialise the XMLHttpRequest object
@@ -264,7 +253,8 @@
 				//prepare and send the request
 				httpRequest.open('GET', url);
 				httpRequest.send();
-			}
+			}	// makeRequest
+			
 		</script>
 	</body>
 </html>
