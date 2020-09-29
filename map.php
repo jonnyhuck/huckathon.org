@@ -104,7 +104,7 @@
 			} else {
 				uuid = "0";
 			}
-			console.log("uuid");
+			console.log(uuid);
 
 			// flag for if user is mapping or not
 			var mapping = false;
