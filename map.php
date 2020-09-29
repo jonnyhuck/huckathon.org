@@ -39,7 +39,7 @@
 			#redBtn {
 				background-color: #ed4933;
 			}
-			#yellowBtn {
+			#blueBtn {
 				background-color: #337AED;
 			}
 			.leaflet-control {
@@ -72,11 +72,45 @@
 
 		<script>
 
-			//flag for if user is mapping or not
+			/**
+			 * Simple function to make a UUID for user ID
+			 * source: https://www.w3resource.com/javascript-exercises/javascript-math-exercise-23.php
+			 */
+			function get_UUID() {
+
+				// get the time
+		    var dt = new Date().getTime();
+
+				// build template and replace characters with random chars informed by the date
+				var uuid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+		        var r = (dt + Math.random() * 16) % 16 | 0;
+		        dt = Math.floor(dt / 16);
+		        return (c == 'x' ? r : (r&0x3 | 0x8)).toString(16);
+		    });
+		    return uuid;
+			}
+
+			// if browser can handle session storage...
+			var uuid;
+			if (typeof(Storage) !== "undefined") {
+
+				// ...and there is not yet a uuid stored, create a session uuid
+				if (!sessionStorage.uuid) sessionStorage.uuid = get_UUID();
+
+				// update local variable to session uuid
+				uuid = sessionStorage.uuid;
+
+			// if can't handle session, just use 0
+			} else {
+				uuid = "0";
+			}
+			console.log("uuid");
+
+			// flag for if user is mapping or not
 			var mapping = false;
 
-			//lock the requested square - in essence thing else is a callback to this
-			makeRequest(['scripts/markLocked.php?id=', id].join(''), function(d) {
+			// lock the requested square - in essence everything else is a callback to this
+			makeRequest(['scripts/markLocked.php?id=', id, '&uuid=', uuid].join(''), function(d) {
 				console.log(d.rows.toString() + " locked (" + id + ")");
 
 				//setup maps
@@ -129,7 +163,7 @@
 					onAdd: function (m) {	//construct the button
 						var container = L.DomUtil.create('div', 'leaflet-bar leaflet-control leaflet-control-custom');
 						container.style.backgroundColor = 'white';
-						container.innerHTML = '<button id="greenBtn" onclick="greenButton()">Start Mapping Now!</button> <button id="yellowBtn" onclick="yellowButton()">Not Sure, Skip!</button> <button id="redBtn" onclick="redButton()">No Mapping Needed!</button>';
+						container.innerHTML = '<button id="greenBtn" onclick="greenButton()">Start Mapping Now!</button> <button id="blueBtn" onclick="blueButton()">Not Sure, Skip!</button> <button id="redBtn" onclick="redButton()">No Mapping Needed!</button>';
 						container.style.padding = "5px";
 						container.style.color = "black";
 
@@ -177,8 +211,9 @@
 
 			}	// redButton
 
+
 			/**
-			 * handlers for the functionality of the green button
+			 * Handlers for the functionality of the green button
 			 */
 			function greenButton() {
 
@@ -190,10 +225,10 @@
 
 					//set the buttons to 'done' or 'cancel'
 					document.getElementById('greenBtn').innerHTML = "I've finished mapping this square";
-					document.getElementById('yellowBtn').style.display = "none";
+					document.getElementById('blueBtn').style.display = "none";
 					document.getElementById('redBtn').innerHTML = "I've given up mapping this square";
 
-					//open the OSM ID Editor at the correct location
+					//open the OSM iD Editor at the correct location
 					var redirectWindow = window.open(osmurl, '_blank');
 					redirectWindow.location;
 
@@ -216,18 +251,22 @@
 				}
 			}	// greenButton
 
-			/**
-			* Handlers for the functionality of the yellow button
-			*/
-			function yellowButton() {
 
-				//reload the page to get new square
+			/**
+			 * Handlers for the functionality of the blue button
+			 */
+			function blueButton() {
+
+				// TODO: this never gets unlocked(!)
+				// simply reload the page to get new square
 				location.reload();
-			}	// yellowButton
+
+			}	// blueButton
+
 
 			/**
-			* Make a request for JSON over HTTP, pass resulting text to callback when ready
-			*/
+			 * Make a request for JSON over HTTP, pass resulting text to callback when ready
+			 */
 			function makeRequest(url, callback) {
 
 				//initialise the XMLHttpRequest object
@@ -255,6 +294,7 @@
 				//prepare and send the request
 				httpRequest.open('GET', url);
 				httpRequest.send();
+
 			}	// makeRequest
 
 		</script>
