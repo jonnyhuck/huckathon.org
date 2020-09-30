@@ -211,4 +211,4 @@ class Tea {
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
 
-export default Tea;
+if (typeof module != 'undefined' && module.exports) module.exports = Tea; // CommonJS export
