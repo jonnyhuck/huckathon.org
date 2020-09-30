@@ -10,6 +10,7 @@ document.getElementById('zoomMsg').innerHTML = Tea.decrypt("qjeY/VC/Krdbx5Cyk6/y
 
 <iframe width="800" height="450" src="https://www.youtube.com/embed/RC6yhnyVckg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+## Written Instructions:
 If you prefer written instructions, here they are:
 
 ## OpenStreetMap
@@ -70,7 +71,6 @@ If it asks you to log in then do so, and you will then see a page like this:
 In this example the **road** has already been mapped but the **huts** and **buildings** have not. Let’s start by mapping the **huts**...
 
 ### Mapping a hut
-
 1:	Zoom so you can see the huts clearly (it’s advisable to start in a corner and then work across from there so you don’t miss any).
 
 2:	When you can see a hut clearly then click the **Area** button at the top of the map:
@@ -104,21 +104,32 @@ In this example the **road** has already been mapped but the **huts** and **buil
 <iframe width="900" height="506" src="https://www.youtube.com/embed/msLi1grrI7M" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
 
 ### Mapping a building
-
 To map buildings, follow the same method but instead of using **Circularise**, use **Square** (to square off the corners). Simply follow the outline of the building and then select **'Building'** instead of ‘Hut’ from the bar on the left.
 
 ### Mapping a Road/Track
+For ‘Roads’ and ‘Paths’ then you select the **Line** tool (instead of **Polygon**):
 
-For ‘Roads’ and ‘Paths’ then you select the **Line** tool (instead of **Polygon**) and simply draw along the line in the same way as wit the huts. IN the left-hand bar, choose **Road** if it looks passable by a vehicle, and **Path** if not. If you aren’t sure whether it is a ‘Road’ or not, just ask!
+![line tool](images/line.png)
+
+Simply draw along the line in the same way as you did with the huts (right click to finish). If at all possible, try to start and end each line by attaching it to another line (simply by clicking on the other line), as this gives us a joined up road and path network that we can use to help our clinics navigate through the region.
+
+When you have drawn your like, in the left-hand bar, choose:
+* **Road** if it looks like a main road (often tarmac surfaced, and normally wide enough for two vehicles)
+* **Track** if it looks passable by a vehicle (normally a dirt surface, wide enough for one vehicle)
+* **Path** if it only looks passable on foot (not wide enough for a vehicle)
+
+If you aren’t sure which classification to use - this is perfectly okay - just make your best guess! Our volunteers will check the mapping that you have done, and our team in Uganda can always correct small errors like that when they see it in real life. It is far more valuable to us to have something there rather than nothing, even if the classification is slightly wrong!
 
 ### Deleting mistakes
+If you make a mistake and would like to delete what you have drawn then simply click on it so it goes red, right click on it and then click the bin icon.
 
-If you make a mistake and would like to delete what you have drawn then simply click on it so it goes red, right click on it and then click the bin icon. Alternatively there is an undo button on at the top of the map (or just **Ctrl+Z**).
+![bin](images/bin.png)
 
-![undo/redo]()
+Alternatively there is an undo button on at the top of the map (or just **Ctrl+Z**).
+
+![undo/redo](images/undo.png)
 
 ### Saving your work!!!
-
 When you have mapped all the features in your area then it is time to save them to the OpenStreetMap database! To do this you click the **Save** button on the tool bar at the top of the map. The number next to it says how many things you have mapped!
 
 ![save button](images/save.png)
@@ -130,18 +141,21 @@ This will make the map go grey and the bar on the left to look like this:
 In the **Changeset Comment** type **Community Mapping Uganda**:
 
 ### Giving up...
-If you want to give up on a square, or weren't able to finish, then that is absolutely fine - please just save any work that you have done (as above) then follow the instructions in the [**Back to Community Mapping Uganda**](#back-to-community-mapping-uganda) section below so that we know to go back to that square.
+If you want to give up on a square, or weren't able to finish, then that is absolutely fine - please just **save** any work that you have done (as above) then follow the instructions in the [**Back to Community Mapping Uganda**](#back-to-community-mapping-uganda) section below so that we know to go back to that square.
 
 ## Back to Community Mapping Uganda...
 
-Well done and thank you, you have successfully mapped an area that has never been mapped before!! Now head back to the **Community Mapping Uganda** tab which will now have different buttons from the ones that you saw. If you finished mapping your square then please click the big green button, if you didn’t finish then please click the red button:
+Well done and thank you, you have successfully mapped an area that has never been mapped before!! Now head back to the **Community Mapping Uganda** tab which will now have different buttons from the ones that you saw before:
+* If you finished mapping your square then please click the big green button, this will mark it as 'done' in our database
+* if you didn’t finish then please click the red button, this will mean it is given to someone else to complete later
+
+***Please make sure that you do this step - it only takes a second and is a massive help to us!***
 
 ![buttons 2](images/buttons2.png)
 
-Either way, you will then be taken to a new square and you can start the process all over again!
+Either way, you will then be taken to a new square and you can start the process all over again (or you can simply leave the site if you are finished)!
 
-Once again, thankyou again for taking part in mapping for **Community Mapping Uganda** - this is really important work that will change people's lives for the better!
+Once again, thankyou again for taking part in **Community Mapping Uganda** - this is really important work that will change people's lives for the better!
 
 ## Ready? Let's Go!
-
 <a href='./map.php' class='button special'>Start Mapping</a>
