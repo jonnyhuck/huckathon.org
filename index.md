@@ -4,7 +4,7 @@ layout: landing
 
 Firstly, thankyou for taking part in mapping for **Community Mapping Uganda** , each feature we add to this map could mean a new limb for someone who has been injured by conflict, so this is a great way to spend some time! If you want to learn about our work before you get started, you can read about it [**here**](https://spark.adobe.com/page/SiM4Iji37rdJr/){:target="_blank"}, or watch the below video, which gives a brief overview of the project as well as instructions on how to take part:
 
-<script src='./js/tea-block.js'></script><span id='zoomMsg'></span><script>
+<span id='zoomMsg'></span><script>
 document.getElementById('zoomMsg').innerHTML = Tea.decrypt("qjeY/VC/Krdbx5Cyk6/ynlGR/DyEQFbHUgkfGeatZr5Zz6s+qtmWcYLvFpg9+NpICa8L6NbY24EdsNj1syFVAuzZkpeRFKaX4jeeCywR0tuQMje/HGsT5lpifentQuxLKUl2axV2WJ8cdwdNy7d1H3Uri14n2gcY1MTENFJBQyX9xKgppUiPywKtrU+wNYl9b4W97o2uqmHX5FmADLQzYyi9zE2DTW7MsMNuddfQkagtZTVT1AUbhwTrRyod1/4XZ0KOZkxAkcwz1Zpt27zsupnCbYu7DI4iMnCT/uEIYbvPTRHShHQKjMOZGNrYJKH0U1PNxoPDgTpBueHhoVEC6QpCtUoJyUQhaxH9EZo1bGbrj8RTPPd8Iz8ARVSZYKyImN8gddYPSwhUHC4kcxk9BAg4avG3ejSvGWJAhEU8TEqV+e1Zs6cjR1JB6XY=", "huckathon");
 </script>
 
