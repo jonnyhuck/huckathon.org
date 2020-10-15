@@ -4,9 +4,8 @@ layout: landing
 
 Firstly, thankyou for taking part in mapping for **Community Mapping Uganda** , each feature we add to this map could mean a new limb for someone who has been injured by conflict, so this is a great way to spend some time! If you want to learn about our work before you get started, you can read about it [**here**](https://spark.adobe.com/page/SiM4Iji37rdJr/){:target="_blank"}, or watch the below video, which gives a brief overview of the project as well as instructions on how to take part:
 
-<!-- ><span id='zoomMsg'></span><script>
-document.getElementById('zoomMsg').innerHTML = Tea.decrypt("qjeY/VC/Krdbx5Cyk6/ynlGR/DyEQFbHUgkfGeatZr5Zz6s+qtmWcYLvFpg9+NpICa8L6NbY24EdsNj1syFVAuzZkpeRFKaX4jeeCywR0tuQMje/HGsT5lpifentQuxLKUl2axV2WJ8cdwdNy7d1H3Uri14n2gcY1MTENFJBQyX9xKgppUiPywKtrU+wNYl9b4W97o2uqmHX5FmADLQzYyi9zE2DTW7MsMNuddfQkagtZTVT1AUbhwTrRyod1/4XZ0KOZkxAkcwz1Zpt27zsupnCbYu7DI4iMnCT/uEIYbvPTRHShHQKjMOZGNrYJKH0U1PNxoPDgTpBueHhoVEC6QpCtUoJyUQhaxH9EZo1bGbrj8RTPPd8Iz8ARVSZYKyImN8gddYPSwhUHC4kcxk9BAg4avG3ejSvGWJAhEU8TEqV+e1Zs6cjR1JB6XY=", "huckathon");
-</script> -->
+>If you are taking part in the University of Manchester PGT Mapathon on 15th October 2020, then watch the below video for an introduction to the project and instructions on what to do. If you have any problems or questions, then you can join the following Zoom room, which will be open from 10-4: <span id='zoomMsg'></span>. Remember, you can join at any time and take part for as much or as little time as you like - and the website is always here so you can always come back and carry on mapping any time you like. Happy mapping!
+<script>document.getElementById('zoomMsg').innerHTML = Tea.decrypt("f1PrX97FEwDqP3tL1getUVqgzQm/eUovFndVFIztZxAsdkJe+2qZ0ELJ0MbkMWVpJmqr/5trGq4BMAHYuvf6MPHcIBAgKTAtFBDxTwe2Z/KeyUYf4khHzs1S+jcdF0zKD1A8zcakgXZGHUF1hdpxxKVH8aPhdbIbl8N55s/AqsdxQ1VLh2qgL4SFYxzXKE0MaUISPK9Qd60gKGzzLofUe+jWCHFMKHFvR7k8ZQ7bWvSlaPwtRxFhKg==", "huckathon");</script>
 
 <iframe width="800" height="450" src="https://www.youtube.com/embed/RC6yhnyVckg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
