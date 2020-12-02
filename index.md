@@ -2,6 +2,8 @@
 layout: landing
 ---
 
+> **Community Mapping Day**: 2020 has been a difficult year for us all in different ways and really highlighted the importance of supporting and caring for one another. Due to this, on World Human Right’s Day, **Thursday 10 December**, we are providing a positive opportunity to come together virtually as a global community to make a difference. Read more about it [here](http://www.socialresponsibility.manchester.ac.uk/news/december-2020/community-mapping-day---get-involved/). If you want to take part in community Mapping Day, please register [here](https://www.eventbrite.co.uk/e/community-mapping-day-tickets-127846258601).
+
 Firstly, thankyou for taking part in mapping for **Community Mapping Uganda** , each feature we add to this map could mean a new limb for someone who has been injured by conflict, so this is a great way to spend some time! If you want to learn about our work before you get started, you can read about it [**here**](https://spark.adobe.com/page/SiM4Iji37rdJr/){:target="_blank"}, or watch the below video, which gives a brief overview of the project as well as instructions on how to take part:
 
 <!-- >If you are taking part in the University of Manchester PGT Mapathon on 15th October 2020, then watch the below video for an introduction to the project and instructions on what to do. If you have any problems or questions, then you can join the following Zoom room, which will be open from 10-4: <span id='zoomMsg'></span>. Remember, you can join at any time and take part for as much or as little time as you like - and the website is always here so you can always come back and carry on mapping any time you like. Happy mapping!
