@@ -1,6 +1,6 @@
 ---
 layout: page
-title: FAQ
+title: faq
 title2: FAQs
 ---
 
