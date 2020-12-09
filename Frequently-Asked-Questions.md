@@ -13,7 +13,9 @@ title2: FAQs
 * [OpenStreetmap is telling me my track doesn’t join up to anything but it runs on outside my square, is it ok just to track part of a road/track and save it? ](#openstreetmap-is-telling-me-my-track-doesnt-join-up-to-anything-but-it-runs-on-outside-my-square-is-it-ok-just-to-track-part-of-a-roadtrack-and-save-it)
 * [I’ve started a road/track line then accidentally double clicked to finish, how do I go back to editing it/ continuing with it? ](#ive-started-a-roadtrack-line-then-accidentally-double-clicked-to-finish-how-do-i-go-back-to-editing-it-continuing-with-it)
 * [Is it ok if I don’t complete everything in the square? (I know you answer this, I just think it’ll come up!)](#i-noticed-i-went-wrong-on-a-section-but-ive-since-mapped-some-other-sections-of-my-square-how-do-i-delete-it-without-losing-my-other-work)
+
 ---
+
 #### I’ve signed up to OpenStreetMap and its showing a map but how do I get to the area you want us to map?
 
 The first time you log in, OpenStreetMap might not direct you to the correct location. If this happens then simply close the tab, click *"I've given up mapping this square"* and get a new square (it might even give you the same one!).
