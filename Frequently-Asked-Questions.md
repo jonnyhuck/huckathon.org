@@ -1,6 +1,6 @@
 ---
 layout: page
-title: FAQs
+title: FAQ
 title2: FAQs
 ---
 
@@ -20,7 +20,7 @@ title2: FAQs
 
 #### I’ve signed up to OpenStreetMap and its showing a map but how do I get to the area you want us to map?
 
-The first time you log in, OpenStreetMap might not direct you to the correct location. If this happens then simply close the tab, click *"I've given up mapping this square"* and get a new square (it might even give you the same one!).
+The first time you log in, OpenStreetMap might not direct you to the correct location on the map. If this happens then simply close the OpenStreetMap tab and return to the Community Mapping tab. Click *"I've given up mapping this square"* and it will give you a new square (possibly even the same one!), then press *"Start Mapping"* and the OpenStreetMap tab will open as expected.
 
 #### I have clicked on a feature (e.g. a hut or a path) to classify it, and it is not giving me the classification options that I need
 
@@ -28,11 +28,11 @@ This is probably that you have clicked on one of the little white dots that make
 
 #### I am right-clicking on a hut/building to make it circular/square, and it is not giving me the menu that I am expecting.
 
-It is likely that you are right-clicking on one of the little white dots that make up the feature, which OpenStreetMap sees as different from the feature itself. If you right-click on the feature itself on the middle of a hut (rather than the dots around the edge), then you should see the circularise or squarify option.
+It is likely that you are right-clicking on one of the little white dots that make up the feature, which OpenStreetMap sees as different from the feature itself. If you right-click on the middle of the hut (rather than the dots around the edge), then you should see the circularise or squarify option.
 
 #### What happens if I’m not sure how to label what I’ve mapped? e.g. if I’m not sure if it’s a track, minor road etc. Can I save it with edits to be checked?
 
-We check all of the data that our volunteers create (please *do not* tick the box asking OpenStreetMap to check this - as we will already do it) . We know that sometimes it is very difficult even for experienced mappers to tell how to classify features, so all that we ask is that you make your best judgement. Even if you are totally wrong, the geometry is valuable, and it won't be long before it is checked and fixed!
+We check all of the data that our volunteers create (please *do not* tick the box asking OpenStreetMap to check this - as we will already do it) . We know that sometimes it is very difficult even for experienced mappers to tell how to classify features, so all that we ask is that you make your best judgement. Even if you are totally wrong, the geometry is valuable, and it won't be long before it is checked and fixed by another volunteer!
 
 #### OpenStreetmap is telling me my track doesn’t join up to anything but it runs on outside my square, is it ok just to track part of a road/track and save it?
 
@@ -46,10 +46,10 @@ No problem, simply select the **line** tool again, and start your new line at th
 
 Absolutely, you can simply either:
 
-* left-click on any feature and edit either its geometry or classfication, just the same as when you were creating it
+* left-click on any feature and edit either its geometry or classification, just the same as when you were creating it
 * right-click on any feature and select the bin icon to delete it
 * left click on it and press the delete button on your keyboard to delete it
 
 #### Is it ok if I don’t complete everything in the square? (I know you answer this, I just think it’ll come up!)
 
-This is fine, just be sure to click the red *"I've given up mapping this square"* button on the **community mapping.org** tab, and someone else will complete it for you later!
+This is fine, just be sure to click the red *"I've given up mapping this square"* button on the **community mapping.org** tab, and the square will be allocated to another volunteer!
