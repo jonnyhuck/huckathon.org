@@ -14,7 +14,8 @@ title2: FAQs
 * [I’ve started a road/track line then accidentally double clicked to finish, how do I go back to editing it/ continuing with it? ](#ive-started-a-roadtrack-line-then-accidentally-double-clicked-to-finish-how-do-i-go-back-to-editing-it-continuing-with-it)
 * [I noticed I went wrong on a section, but I’ve since mapped some other sections of my square, how do I delete it without losing my other work?](#i-noticed-i-went-wrong-on-a-section-but-ive-since-mapped-some-other-sections-of-my-square-how-do-i-delete-it-without-losing-my-other-work)
 * [Is it ok if I don’t complete everything in the square?](#is-it-ok-if-i-dont-complete-everything-in-the-square)
-
+* [Why can I not see the square in the editor?](#why-can-i-not-see-the-square-in-the-editor)
+* [Is it OK if I go outside of my square?](#is-it-ok-if-i-go-outside-of-my-square)
 ---
 
 ## Answers
@@ -51,6 +52,14 @@ Absolutely, you can simply either:
 * right-click on any feature and select the bin icon to delete it
 * left click on it and press the delete button on your keyboard to delete it
 
-#### Is it ok if I don’t complete everything in the square?
+#### Is it OK if I don’t complete everything in the square?
 
 This is fine, just be sure to click the red *"I've given up mapping this square"* button on the **community mapping.org** tab, and the square will be allocated to another volunteer!
+
+#### Why can I not see the square in the editor?
+
+Unfortunately, we do not have the ability to add the square to the editor because it is operated by OpenStreetMap. However, both the Community Mapping Uganda tab and the OpenStreetMap editor have identical satellite imagery, so you can compare the two to find where you are if you get lost. Do not worry too much about the exact location of the square, it does not matter if you go outside it a bit - it will just mean less work for the next person!
+
+#### Is it OK if I go outside of my square?
+
+Yes, this is fine. Do not worry too much about the exact location of the square, it does not matter if you go outside it a bit - it will just mean less work for the next person! We ask that you try to keep roughly to your square as best as you can, then get another square and mark it as complete (as this allows us to better understand how much of the area has been mapped), but there are no consequences if you wander outside a little bit!
