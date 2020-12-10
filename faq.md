@@ -71,7 +71,7 @@ Yes, this is fine. Do not worry too much about the exact location of the square,
 
 If you can't save, it might be because you have an error in your data - this will be displayed in a red box in the bar to the left. In this case, click the red box to Zoom the map editor to the feature that has an error.
 
-If there is no red box and save isn't working, refresh the page. It will ask you if you want to resume your mapping session, and you should click yes to this (the blue arrow). Now click the save button and try again. If it still doesn't work, refresh the page again (and click the blue arrow to get your edits back), and click save, but do *not* click to upload in the left panel. Instead, scroll to the bottom of the left panel and click to download the `*.osc` changes file - if you email this to <span id='zoomMsg'></span>, we will upload it for you.
+If there is no red box and save isn't working, refresh the page. It will ask you if you want to resume your mapping session, and you should click yes to this (the blue arrow). Now click the save button and try again. If it still doesn't work, refresh the page again (and click the blue arrow to get your edits back), and click save, but do *not* click to upload in the left panel. Instead, scroll to the bottom of the left panel and click to download the changes file (*.osc) - if you email this to <span id='zoomMsg'></span>, we will upload it for you.
 <script>document.getElementById('zoomMsg').innerHTML = Tea.decrypt("8KROz/NSb7KWOb+Y7onNvTbwI4yK4EU6pyqY9GflodEN10U2PpH8nvxEFzyBwWcUl6APxVd1zht1CNiaLbfqCSkCewQ=", "huckathon");</script>
 
 #### I am really stuck
