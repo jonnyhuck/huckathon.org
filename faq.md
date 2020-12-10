@@ -51,7 +51,6 @@ No problem, simply select the **line** tool again, and start your new line at th
 #### I noticed I went wrong on a section, but I’ve since mapped some other sections of my square, how do I delete it without losing my other work?
 
 Absolutely, you can simply either:
-
 * left-click on any feature and edit either its geometry or classification, just the same as when you were creating it
 * right-click on any feature and select the bin icon to delete it
 * left click on it and press the delete button on your keyboard to delete it
