@@ -16,6 +16,7 @@ title2: FAQs
 * [Is it ok if I don’t complete everything in the square?](#is-it-ok-if-i-dont-complete-everything-in-the-square)
 * [Why can I not see the square in the editor?](#why-can-i-not-see-the-square-in-the-editor)
 * [Is it OK if I go outside of my square?](#is-it-ok-if-i-go-outside-of-my-square)
+
 ---
 
 ## Answers
