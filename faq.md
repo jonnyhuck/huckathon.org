@@ -16,6 +16,8 @@ title2: FAQs
 * [Is it ok if I don’t complete everything in the square?](#is-it-ok-if-i-dont-complete-everything-in-the-square)
 * [Why can I not see the square in the editor?](#why-can-i-not-see-the-square-in-the-editor)
 * [Is it OK if I go outside of my square?](#is-it-ok-if-i-go-outside-of-my-square)
+* [When I click Save it doesn't work](#when-i-click-save-it-doesnt-work)
+* [I am really stuck](#i-am-really-stuck)
 
 ---
 
@@ -64,3 +66,15 @@ Unfortunately, we do not have the ability to add the square to the editor becaus
 #### Is it OK if I go outside of my square?
 
 Yes, this is fine. Do not worry too much about the exact location of the square, it does not matter if you go outside it a bit - it will just mean less work for the next person! We ask that you try to keep roughly to your square as best as you can, then get another square and mark it as complete (as this allows us to better understand how much of the area has been mapped), but there are no consequences if you wander outside a little bit!
+
+#### When I click Save it doesn't work
+
+If you can't save, it might be because you have an error in your data - this will be displayed in a red box in the bar to the left. In this case, click the red box to Zoom the map editor to the feature that has an error.
+
+If there is no red box and save isn't working, refresh the page. It will ask you if you want to resume your mapping session, and you should click yes to this (the blue arrow). Now click the save button and try again. If it still doesn't work, refresh the page again (and click the blue arrow to get your edits back), and click save, but do *not* click to upload in the left panel. Instead, scroll to the bottom of the left panel and click to download the `*.osc` changes file - if you email this to <span id='zoomMsg'></span>, we will upload it for you.
+<script>document.getElementById('zoomMsg').innerHTML = Tea.decrypt("8KROz/NSb7KWOb+Y7onNvTbwI4yK4EU6pyqY9GflodEN10U2PpH8nvxEFzyBwWcUl6APxVd1zht1CNiaLbfqCSkCewQ=", "huckathon");</script>
+
+#### I am really stuck
+
+Simply email <span id='zoomMsg2'></span> and we will try to help!
+<script>document.getElementById('zoomMsg2').innerHTML = Tea.decrypt("8KROz/NSb7KWOb+Y7onNvTbwI4yK4EU6pyqY9GflodEN10U2PpH8nvxEFzyBwWcUl6APxVd1zht1CNiaLbfqCSkCewQ=", "huckathon");</script>
