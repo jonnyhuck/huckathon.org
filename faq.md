@@ -11,12 +11,13 @@ title2: FAQs
 * [I am right-clicking on a hut/building to make it circular/square, and it is not giving me the menu that I am expecting.](#i-am-right-clicking-on-a-hutbuilding-to-make-it-circularsquare-and-it-is-not-giving-me-the-menu-that-i-am-expecting)
 * [What happens if I’m not sure how to label what I’ve mapped? e.g. if I’m not sure if it’s a track, minor road etc. Can I save it with edits to be checked?](#what-happens-if-im-not-sure-how-to-label-what-ive-mapped-eg-if-im-not-sure-if-its-a-track-minor-road-etc-can-i-save-it-with-edits-to-be-checked)
 * [OpenStreetMap is telling me my track doesn’t join up to anything, is it ok just to track part of a road/track and save it? ](#openstreetmap-is-telling-me-my-track-doesnt-join-up-to-anything-but-it-runs-on-outside-my-square-is-it-ok-just-to-track-part-of-a-roadtrack-and-save-it)
-* [I’ve started a road/track line then accidentally double clicked to finish, how do I go back to editing it/ continuing with it? ](#ive-started-a-roadtrack-line-then-accidentally-double-clicked-to-finish-how-do-i-go-back-to-editing-it-continuing-with-it)
+* [I’ve started a road/track line then accidentally double clicked to finish, how do I go back to editing it / continuing with it? ](#ive-started-a-roadtrack-line-then-accidentally-double-clicked-to-finish-how-do-i-go-back-to-editing-it-continuing-with-it)
 * [I noticed I went wrong on a section, but I’ve since mapped some other sections of my square, how do I delete it without losing my other work?](#i-noticed-i-went-wrong-on-a-section-but-ive-since-mapped-some-other-sections-of-my-square-how-do-i-delete-it-without-losing-my-other-work)
 * [Is it ok if I don’t complete everything in the square?](#is-it-ok-if-i-dont-complete-everything-in-the-square)
 * [Why can I not see the square in the editor?](#why-can-i-not-see-the-square-in-the-editor)
 * [Is it OK if I go outside of my square?](#is-it-ok-if-i-go-outside-of-my-square)
 * [When I click Save it doesn't work](#when-i-click-save-it-doesnt-work)
+* [How often should I save?](#how-often-should-i-save)
 * [I am really stuck](#i-am-really-stuck)
 
 ---
@@ -43,7 +44,7 @@ We check all of the data that our volunteers create (please *do not* tick the bo
 
 This is fine - where possible, it is good to connect lines to other lines, but if this is not possible (i.e. because there is nothing to connect it to) then it is perfectly fine to leave it for someone else to connect in the future. The warnings are just there to ensure that you haven't forgotten to connect them by accident - they can be safely ignored if there is nothing to connect to *(as the person who maps the adjacent square will likely connect them in the future!)*.
 
-#### I’ve started a road/track line then accidentally double clicked to finish, how do I go back to editing it/ continuing with it?
+#### I’ve started a road/track line then accidentally double clicked to finish, how do I go back to editing it / continuing with it?
 
 No problem, simply select the **line** tool again, and start your new line at the end of the previous one - it will seamlessly extend the original line - you can then set it to have the same classification, and this will be no different to if you had drawn it all in one go in the first place.
 
@@ -71,8 +72,12 @@ Yes, this is fine. Do not worry too much about the exact location of the square,
 
 If you can't save, it might be because you have an error in your data - this will be displayed in a red box in the bar to the left. In this case, click the red box to Zoom the map editor to the feature that has an error.
 
-If there is no red box and save isn't working, refresh the page. It will ask you if you want to resume your mapping session, and you should click yes to this (the blue arrow). Now click the save button and try again. If it still doesn't work, refresh the page again (and click the blue arrow to get your edits back), and click save, but do *not* click to upload in the left panel. Instead, scroll to the bottom of the left panel and click to download the changes file (*.osc) - if you email this to <span id='zoomMsg'></span>, we will upload it for you.
+If there is no red box and save isn't working, refresh the page. It will ask you if you want to resume your mapping session, and you should click yes to this (the blue arrow). Now click the save button and try again. If it still doesn't work, refresh the page again (and click the blue arrow to get your edits back), and click save, but do *not* click to upload in the left panel. Instead, scroll to the bottom of the left panel and click to download the changes file (*.osc) - if you email this to <span id='zoomMsg'></span>, we will upload it for you. You can then return to the Community Mapping Uganda tab and start a new square if you wish (we would recommend using a different browser for this if you can, and trying to save after mapping only a few features to make sure that it works)!
 <script>document.getElementById('zoomMsg').innerHTML = Tea.decrypt("8KROz/NSb7KWOb+Y7onNvTbwI4yK4EU6pyqY9GflodEN10U2PpH8nvxEFzyBwWcUl6APxVd1zht1CNiaLbfqCSkCewQ=", "huckathon");</script>
+
+#### How often should I save?
+
+We would recommend saving your mapping as often as possible in order to minimise problems and then chance of losing your work. We would recommend keeping the feature counter in the top-right below 50 by saving your progress regularly.
 
 #### I am really stuck
 
