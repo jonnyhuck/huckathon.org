@@ -2,8 +2,10 @@
 layout: landing
 ---
 
-<!-->If you are taking part in the **Community Mapping Day** on 10th December 2020, then thankyou for taking the time to help out! We have live support volunteers available from 8am to 8pm UK time - so if you have any problems or questions, you can get help by emailing <span id='zoomMsg'></span> and we will be able to answer your question directly or provide a Zoom link so that we can give you face to face support. Remember, you can join at any time and take part for as long as you wish - and the website is always here so you can always come back and carry on mapping any time you like. Happy mapping!
-<script>document.getElementById('zoomMsg').innerHTML = Tea.decrypt("8KROz/NSb7KWOb+Y7onNvTbwI4yK4EU6pyqY9GflodEN10U2PpH8nvxEFzyBwWcUl6APxVd1zht1CNiaLbfqCSkCewQ=", "huckathon");</script>-->
+<!--
+>If you are taking part in the **Community Mapping Day** on 10th December 2020, then thankyou for taking the time to help out! We have live support volunteers available from 8am to 8pm UK time - so if you have any problems or questions, you can get help by emailing <span id='zoomMsg'></span> and we will be able to answer your question directly or provide a Zoom link so that we can give you face to face support. Remember, you can join at any time and take part for as long as you wish - and the website is always here so you can always come back and carry on mapping any time you like. Happy mapping!
+<script>document.getElementById('zoomMsg').innerHTML = Tea.decrypt("8KROz/NSb7KWOb+Y7onNvTbwI4yK4EU6pyqY9GflodEN10U2PpH8nvxEFzyBwWcUl6APxVd1zht1CNiaLbfqCSkCewQ=", "huckathon");</script>
+-->
 
 Firstly, thankyou for taking part in mapping for **Community Mapping Uganda** , each feature we add to this map could mean a new limb for someone who has been injured by conflict, so this is a great way to spend some time! If you want to learn about our work before you get started, you can read about it [here](https://spark.adobe.com/page/SiM4Iji37rdJr/){:target="_blank"}. Everything that you need to know about how to map is below. You have the choice of two videos: a short (5 min) version for those who want to get started quickly, and a longer (19 min) version for those who want more detail. Alternatively, there are detailed written instructions below the videos if you prefer. If you get stuck, you can refer to our [Frequently Asked Questions](./faq.html){:target="_blank"} for tips and answers to common questions that volunteers ask.
 
