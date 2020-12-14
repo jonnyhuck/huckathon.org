@@ -12,10 +12,12 @@ Firstly, thankyou for taking part in mapping for **Community Mapping Uganda** , 
 ### Short Instructional Video (5 mins):
 
 <iframe width="800" height="450" src="https://www.youtube.com/embed/wzJhVrpu1FM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+If you get stuck, you can refer to our [Frequently Asked Questions](./faq.html){:target="_blank"} for tips and answers to common questions that volunteers ask.
 
 ### Detailed Instructional Video (19 mins):
 
 <iframe width="800" height="450" src="https://www.youtube.com/embed/0qXMZX3e6P4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+If you get stuck, you can refer to our [Frequently Asked Questions](./faq.html){:target="_blank"} for tips and answers to common questions that volunteers ask.
 
 ## Written Instructions:
 If you prefer written instructions, here they are:
@@ -161,6 +163,8 @@ Well done and thank you, you have successfully mapped an area that has never bee
 ![buttons 2](images/buttons2.png)
 
 Either way, you will then be taken to a new square and you can start the process all over again (or you can simply leave the site if you are finished)!
+
+If you get stuck, you can refer to our [Frequently Asked Questions](./faq.html){:target="_blank"} for tips and answers to common questions that volunteers ask.
 
 Once again, thankyou again for taking part in **Community Mapping Uganda** - this is really important work that will change people's lives for the better!
 
