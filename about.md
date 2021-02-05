@@ -15,9 +15,10 @@ One of the greatest challenges to this research is that detailed maps of the are
 As such, we created a series of events where volunteers can contribute to a new, freely available map of the area by drawing around huts, buildings and tracks on satellite photography. No skills or experience are required, you simply need to turn up (with a laptop if you have one) go to our website ([huckathon.org](http://huckathon.org)) and get mapping. The map data that is created goes to [OpenStreetMap](https://openstreetmap.org), meaning that it is freely available to anyone that wants it, and we are going to produce a series of map sheets for the Acholi Region, which again will be freely available to anyone. Click the buttons below to have a go!
 
 <ul class="actions">
-	<li><a href='#info' class='button special'>View Instructions</a></li>
+	<li><a href='https://communitymapping.org/index.html#info' class='button special'>View Instructions</a></li>
 	<li><a href='./map.php' class='button special'>Start Mapping</a></li>
 </ul>
+
 
 We are always on the lookout for new members and volunteers! If you would like to know more information about the mapathons, or indeed about the ongoing research into healthcare provision in post-conflict Uganda, then please do not hesitate to contact Dr Jonny Huck
 <script type="text/javascript" language="javascript">
